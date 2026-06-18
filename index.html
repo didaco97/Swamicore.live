@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwamiCore</title>
+  <meta name="description"
+    content="SWAMICORE connects farmers, AI quality control, compliant export documents, logistics, and buyer visibility into one traceable agri export operating system.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500;600;700;800&family=Bowlby+One+SC&family=Eczar:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" href="Assests/swamicore_logo.png">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <svg class="liquid-glass-filter" aria-hidden="true" focusable="false">
+    <filter id="swamicore-nav-glass" x="-12%" y="-80%" width="124%" height="260%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.008 0.008" numOctaves="2" seed="92" result="noise" />
+      <feGaussianBlur in="noise" stdDeviation="0.02" result="blur" />
+      <feDisplacementMap in="SourceGraphic" in2="blur" scale="34" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+  </svg>
+
+  <header class="site-header" id="navbar">
+    <div class="shell nav-shell">
+      <a href="#hero" class="brand" aria-label="SWAMICORE home">
+        <img src="Assests/swamicore_logo.png" alt="" width="44" height="44">
+        <span>
+          <strong>SWAMICORE</strong>
+          <small>Agri export intelligence</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+        <a href="#platform">Platform</a>
+        <a href="#flow">Flow</a>
+        <a href="#models">AI Models</a>
+        <a href="#produce">Produce</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="menu-toggle" type="button" id="navToggle" aria-label="Open navigation menu"
+          aria-controls="navLinks" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <video autoplay muted loop playsinline poster="Assests/Close-up_of_a_worker_placing_202606160014.jpeg">
+          <source src="Assests/Wooden_crate_overflowing_mangoes_202606160004.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Rooted Indian agri export</p>
+          <h1 id="hero-title">SWAMICORE</h1>
+          <p class="hero-subtitle">From Indian farms to world markets, with every crate graded, documented, routed,
+            insured, and paid through one transparent export lane.</p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#contact">
+              Book a Demo
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+            <a class="button button-ghost" href="#platform">
+              Explore Platform
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="shell hero-metrics" aria-label="SWAMICORE operating metrics">
+        <div class="metric reveal reveal-delay-1">
+          <span class="stat-value" data-target="25">25+</span>
+          <p>buyer countries</p>
+        </div>
+        <div class="metric reveal reveal-delay-2">
+          <span class="stat-value" data-target="10000">10K+</span>
+          <p>farmer network</p>
+        </div>
+        <div class="metric reveal reveal-delay-3">
+          <span class="stat-value" data-target="5000">5,000+</span>
+          <p>export batches</p>
+        </div>
+        <div class="metric reveal reveal-delay-4">
+          <span>24H</span>
+          <p>farmer payouts</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section platform" id="platform" aria-labelledby="platform-title">
+      <div class="shell platform-grid">
+        <div class="section-copy reveal">
+          <p class="eyebrow dark">Platform</p>
+          <h2 id="platform-title">A grounded control layer for Indian agri exports.</h2>
+          <p>SWAMICORE replaces fragmented sourcing, manual inspection, scattered documents, and delayed payouts with a
+            single operating layer built for farmers, buyers, and export teams.</p>
+          <div class="feature-list" role="list">
+            <article role="listitem">
+              <span class="feature-icon">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M4 12a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm8-5v5l3 3" />
+                </svg>
+              </span>
+              <div>
+                <h3>Faster farmer settlement</h3>
+                <p>Pickup-linked payments and lot status updates reduce waiting cycles.</p>
+              </div>
+            </article>
+            <article role="listitem">
+              <span class="feature-icon">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M12 3 4 7v6c0 5 8 8 8 8s8-3 8-8V7l-8-4Z" />
+                  <path d="m9 12 2 2 4-5" />
+                </svg>
+              </span>
+              <div>
+                <h3>QC that travels with the crate</h3>
+                <p>Vision scores, inspector notes, and buyer-grade evidence stay attached to each batch.</p>
+              </div>
+            </article>
+            <article role="listitem">
+              <span class="feature-icon">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M6 2h9l5 5v15H6V2Z" />
+                  <path d="M14 2v6h6M9 13h6M9 17h6" />
+                </svg>
+              </span>
+              <div>
+                <h3>Compliance without document drag</h3>
+                <p>Export paperwork is generated, checked, and routed from verified shipment data.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="ops-panel reveal reveal-delay-2">
+          <div class="ops-card ops-card-large">
+            <div class="ops-card-header">
+              <span>Shipment OS</span>
+              <strong>Active</strong>
+            </div>
+            <img src="Assests/Close-up_of_a_worker_placing_202606160014.jpeg"
+              alt="Worker loading mango crates into a SWAMICORE logistics container" width="680" height="370">
+          </div>
+          <div class="ops-card-grid">
+            <div class="ops-card">
+              <span>Lane health</span>
+              <strong>98.4%</strong>
+              <p>Mumbai to Dubai</p>
+            </div>
+            <div class="ops-card accent">
+              <span>Docs ready</span>
+              <strong>16 min</strong>
+              <p>Phyto, FSSAI, invoice</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section flow" id="flow" aria-labelledby="flow-title">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Zero-touch architecture</p>
+          <h2 id="flow-title">One clean chain from harvest intent to buyer receipt.</h2>
+        </div>
+
+        <div class="flow-line" role="list">
+          <article class="flow-step reveal reveal-delay-1" role="listitem">
+            <span>01</span>
+            <h3>Grow</h3>
+            <p>Demand signals guide farmer harvest plans and lot availability.</p>
+          </article>
+          <article class="flow-step reveal reveal-delay-2" role="listitem">
+            <span>02</span>
+            <h3>Grade</h3>
+            <p>Photos and inspections generate quality scores before pickup.</p>
+          </article>
+          <article class="flow-step reveal reveal-delay-3" role="listitem">
+            <span>03</span>
+            <h3>Aggregate</h3>
+            <p>Crates are batched by grade, route, destination, and shelf-life needs.</p>
+          </article>
+          <article class="flow-step reveal reveal-delay-4" role="listitem">
+            <span>04</span>
+            <h3>Certify</h3>
+            <p>AI-assisted documentation prepares export files from verified data.</p>
+          </article>
+          <article class="flow-step reveal reveal-delay-5" role="listitem">
+            <span>05</span>
+            <h3>Ship</h3>
+            <p>Containers move with tracking, insurance, and buyer visibility.</p>
+          </article>
+          <article class="flow-step reveal reveal-delay-5" role="listitem">
+            <span>06</span>
+            <h3>Settle</h3>
+            <p>Farmers receive payout updates within 24 hours of pickup.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section models" id="models" aria-labelledby="models-title">
+      <div class="shell models-grid">
+        <div class="section-copy reveal">
+          <p class="eyebrow dark">AI models</p>
+          <h2 id="models-title">A harvest record that gets stronger with every shipment.</h2>
+          <p>Each export batch improves the trail of grade quality, price signals, route reliability, compliance checks,
+            demand timing, and trust.</p>
+          <a class="button button-dark" href="#contact">
+            Build with us
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M5 12h14M13 6l6 6-6 6" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="model-list" role="list">
+          <article class="model-tile reveal reveal-delay-1" role="listitem">
+            <div class="model-tile-graphic" aria-hidden="true">
+              <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Eye / Vision scanning -->
+                <ellipse cx="60" cy="40" rx="38" ry="24" stroke="var(--leaf-600)" stroke-width="1.5"
+                  stroke-dasharray="4 3" opacity="0.35" />
+                <ellipse cx="60" cy="40" rx="26" ry="16" stroke="var(--leaf-600)" stroke-width="1.5" opacity="0.5" />
+                <circle cx="60" cy="40" r="9" fill="var(--leaf-600)" opacity="0.18" />
+                <circle cx="60" cy="40" r="5" fill="var(--leaf-700)" opacity="0.6" />
+                <circle cx="60" cy="40" r="2" fill="var(--leaf-600)" />
+                <!-- Scan lines -->
+                <line x1="18" y1="28" x2="42" y2="28" stroke="var(--leaf-600)" stroke-width="1" opacity="0.3"
+                  class="model-scan-line" />
+                <line x1="78" y1="52" x2="102" y2="52" stroke="var(--leaf-600)" stroke-width="1" opacity="0.3"
+                  class="model-scan-line" />
+                <!-- Detection dots -->
+                <circle cx="38" cy="34" r="2.5" fill="var(--citrus-500)" opacity="0.7" class="model-pulse-dot" />
+                <circle cx="82" cy="46" r="2.5" fill="var(--citrus-500)" opacity="0.7" class="model-pulse-dot"
+                  style="animation-delay:0.6s" />
+                <circle cx="55" cy="25" r="1.8" fill="var(--leaf-400)" opacity="0.5" class="model-pulse-dot"
+                  style="animation-delay:1.2s" />
+                <!-- Crosshair -->
+                <line x1="60" y1="30" x2="60" y2="34" stroke="var(--leaf-600)" stroke-width="0.8" opacity="0.5" />
+                <line x1="60" y1="46" x2="60" y2="50" stroke="var(--leaf-600)" stroke-width="0.8" opacity="0.5" />
+                <line x1="50" y1="40" x2="54" y2="40" stroke="var(--leaf-600)" stroke-width="0.8" opacity="0.5" />
+                <line x1="66" y1="40" x2="70" y2="40" stroke="var(--leaf-600)" stroke-width="0.8" opacity="0.5" />
+              </svg>
+            </div>
+            <span>Vision AI</span>
+            <h3>Quality grading and defect detection</h3>
+          </article>
+          <article class="model-tile reveal reveal-delay-2" role="listitem">
+            <div class="model-tile-graphic" aria-hidden="true">
+              <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Price chart / LSTM waves -->
+                <line x1="16" y1="68" x2="104" y2="68" stroke="var(--leaf-600)" stroke-width="0.7" opacity="0.2" />
+                <line x1="16" y1="54" x2="104" y2="54" stroke="var(--leaf-600)" stroke-width="0.5" opacity="0.1"
+                  stroke-dasharray="3 3" />
+                <line x1="16" y1="40" x2="104" y2="40" stroke="var(--leaf-600)" stroke-width="0.5" opacity="0.1"
+                  stroke-dasharray="3 3" />
+                <line x1="16" y1="26" x2="104" y2="26" stroke="var(--leaf-600)" stroke-width="0.5" opacity="0.1"
+                  stroke-dasharray="3 3" />
+                <!-- Historical line -->
+                <polyline points="16,58 26,52 36,56 46,42 56,38 66,44 76,30 86,28 96,32" stroke="var(--leaf-600)"
+                  stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.6" fill="none" />
+                <!-- Area fill under line -->
+                <polygon points="16,58 26,52 36,56 46,42 56,38 66,44 76,30 86,28 96,32 96,68 16,68"
+                  fill="url(#pricingGradient)" opacity="0.15" />
+                <!-- Forecast dashed -->
+                <polyline points="96,32 104,26 112,22" stroke="var(--citrus-500)" stroke-width="1.5"
+                  stroke-dasharray="4 3" stroke-linecap="round" opacity="0.7" fill="none" />
+                <!-- Data points -->
+                <circle cx="46" cy="42" r="2.5" fill="var(--leaf-600)" opacity="0.7" />
+                <circle cx="76" cy="30" r="2.5" fill="var(--leaf-600)" opacity="0.7" />
+                <circle cx="96" cy="32" r="3" fill="var(--citrus-500)" opacity="0.8" class="model-pulse-dot" />
+                <!-- Price labels -->
+                <text x="100" y="18" fill="var(--citrus-500)" font-size="7" font-weight="700" opacity="0.7">↑</text>
+                <defs>
+                  <linearGradient id="pricingGradient" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="var(--leaf-600)" stop-opacity="0.4" />
+                    <stop offset="100%" stop-color="var(--leaf-600)" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <span>Pricing LSTM</span>
+            <h3>Global price parity forecasting</h3>
+          </article>
+          <article class="model-tile reveal reveal-delay-3" role="listitem">
+            <div class="model-tile-graphic" aria-hidden="true">
+              <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Document pages -->
+                <rect x="34" y="10" width="42" height="56" rx="3" stroke="var(--leaf-600)" stroke-width="1.2"
+                  opacity="0.3" fill="var(--leaf-600)" fill-opacity="0.04" />
+                <rect x="38" y="6" width="42" height="56" rx="3" stroke="var(--leaf-600)" stroke-width="1.2"
+                  opacity="0.5" fill="var(--leaf-600)" fill-opacity="0.06" />
+                <!-- Text lines -->
+                <line x1="46" y1="18" x2="72" y2="18" stroke="var(--leaf-600)" stroke-width="1.5" opacity="0.4"
+                  stroke-linecap="round" />
+                <line x1="46" y1="25" x2="68" y2="25" stroke="var(--leaf-600)" stroke-width="1" opacity="0.25"
+                  stroke-linecap="round" />
+                <line x1="46" y1="31" x2="72" y2="31" stroke="var(--leaf-600)" stroke-width="1" opacity="0.25"
+                  stroke-linecap="round" />
+                <line x1="46" y1="37" x2="64" y2="37" stroke="var(--leaf-600)" stroke-width="1" opacity="0.25"
+                  stroke-linecap="round" />
+                <line x1="46" y1="43" x2="70" y2="43" stroke="var(--leaf-600)" stroke-width="1" opacity="0.25"
+                  stroke-linecap="round" />
+                <!-- Checkmark badges -->
+                <circle cx="86" cy="22" r="7" fill="var(--leaf-600)" opacity="0.15" />
+                <path d="M83 22 l2 2 l4 -4" stroke="var(--leaf-600)" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" opacity="0.7" />
+                <circle cx="86" cy="38" r="7" fill="var(--citrus-500)" opacity="0.12" />
+                <path d="M83 38 l2 2 l4 -4" stroke="var(--citrus-500)" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" opacity="0.7" />
+                <!-- AI sparkle -->
+                <path d="M90 52 l0 -4 l0 4 l0 4 l0 -4 l-4 0 l4 0 l4 0 l-4 0" stroke="var(--citrus-500)" stroke-width="1"
+                  opacity="0.5" class="model-pulse-dot" />
+              </svg>
+            </div>
+            <span>Docs RAG</span>
+            <h3>Export document parsing and generation</h3>
+          </article>
+          <article class="model-tile reveal reveal-delay-4" role="listitem">
+            <div class="model-tile-graphic" aria-hidden="true">
+              <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Route network -->
+                <!-- Nodes -->
+                <circle cx="24" cy="44" r="6" stroke="var(--leaf-600)" stroke-width="1.2" fill="var(--leaf-600)"
+                  fill-opacity="0.1" />
+                <circle cx="24" cy="44" r="2.5" fill="var(--leaf-600)" opacity="0.6" />
+                <circle cx="60" cy="22" r="6" stroke="var(--leaf-600)" stroke-width="1.2" fill="var(--leaf-600)"
+                  fill-opacity="0.1" />
+                <circle cx="60" cy="22" r="2.5" fill="var(--leaf-600)" opacity="0.6" />
+                <circle cx="60" cy="58" r="5" stroke="var(--leaf-600)" stroke-width="1" fill="var(--leaf-600)"
+                  fill-opacity="0.08" opacity="0.5" />
+                <circle cx="60" cy="58" r="2" fill="var(--leaf-600)" opacity="0.4" />
+                <circle cx="96" cy="40" r="8" stroke="var(--citrus-500)" stroke-width="1.5" fill="var(--citrus-500)"
+                  fill-opacity="0.08" />
+                <circle cx="96" cy="40" r="3.5" fill="var(--citrus-500)" opacity="0.6" class="model-pulse-dot" />
+                <!-- Connections -->
+                <line x1="30" y1="42" x2="54" y2="24" stroke="var(--leaf-600)" stroke-width="1" opacity="0.35" />
+                <line x1="30" y1="46" x2="55" y2="56" stroke="var(--leaf-600)" stroke-width="0.8" opacity="0.2"
+                  stroke-dasharray="3 3" />
+                <line x1="66" y1="24" x2="88" y2="38" stroke="var(--leaf-600)" stroke-width="1.2" opacity="0.4" />
+                <line x1="65" y1="56" x2="88" y2="42" stroke="var(--leaf-600)" stroke-width="0.8" opacity="0.25"
+                  stroke-dasharray="3 3" />
+                <!-- Animated packet on route -->
+                <circle cx="0" cy="0" r="2" fill="var(--citrus-500)" opacity="0.8">
+                  <animateMotion dur="3s" repeatCount="indefinite" path="M30,42 L54,24 L66,24 L88,38" />
+                </circle>
+                <!-- Labels -->
+                <text x="20" y="58" fill="var(--leaf-600)" font-size="5.5" font-weight="700" opacity="0.5">FARM</text>
+                <text x="88" y="56" fill="var(--citrus-500)" font-size="5.5" font-weight="700" opacity="0.5">PORT</text>
+              </svg>
+            </div>
+            <span>Route AI</span>
+            <h3>Container, pickup, and port optimization</h3>
+          </article>
+          <article class="model-tile reveal reveal-delay-5" role="listitem">
+            <div class="model-tile-graphic" aria-hidden="true">
+              <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Shield -->
+                <path d="M60 10 L86 22 L86 44 C86 58 60 70 60 70 C60 70 34 58 34 44 L34 22 Z" stroke="var(--leaf-600)"
+                  stroke-width="1.3" fill="var(--leaf-600)" fill-opacity="0.06" opacity="0.5" />
+                <path d="M60 16 L80 26 L80 42 C80 53 60 63 60 63 C60 63 40 53 40 42 L40 26 Z" stroke="var(--leaf-600)"
+                  stroke-width="1" fill="var(--leaf-600)" fill-opacity="0.08" opacity="0.4" stroke-dasharray="3 3" />
+                <!-- Inner checkmark -->
+                <circle cx="60" cy="38" r="10" fill="var(--leaf-600)" opacity="0.12" />
+                <path d="M54 38 l4 4 l8 -8" stroke="var(--leaf-600)" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" opacity="0.7" />
+                <!-- Score bars -->
+                <rect x="18" y="28" width="10" height="3" rx="1.5" fill="var(--leaf-600)" opacity="0.3" />
+                <rect x="18" y="34" width="8" height="3" rx="1.5" fill="var(--leaf-600)" opacity="0.2" />
+                <rect x="18" y="40" width="12" height="3" rx="1.5" fill="var(--citrus-500)" opacity="0.4" />
+                <rect x="92" y="28" width="10" height="3" rx="1.5" fill="var(--leaf-600)" opacity="0.3" />
+                <rect x="92" y="34" width="12" height="3" rx="1.5" fill="var(--leaf-600)" opacity="0.2" />
+                <rect x="92" y="40" width="8" height="3" rx="1.5" fill="var(--citrus-500)" opacity="0.4" />
+                <!-- Trust score text -->
+                <text x="52" y="56" fill="var(--leaf-600)" font-size="7" font-weight="700" opacity="0.4">96.2</text>
+              </svg>
+            </div>
+            <span>Trust score</span>
+            <h3>Farmer and buyer reliability signals</h3>
+          </article>
+          <article class="model-tile reveal reveal-delay-5" role="listitem">
+            <div class="model-tile-graphic" aria-hidden="true">
+              <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Bar chart -->
+                <line x1="20" y1="68" x2="104" y2="68" stroke="var(--leaf-600)" stroke-width="0.7" opacity="0.2" />
+                <!-- Bars -->
+                <rect x="24" y="48" width="8" height="20" rx="1" fill="var(--leaf-600)" opacity="0.2" />
+                <rect x="36" y="38" width="8" height="30" rx="1" fill="var(--leaf-600)" opacity="0.25" />
+                <rect x="48" y="30" width="8" height="38" rx="1" fill="var(--leaf-600)" opacity="0.3" />
+                <rect x="60" y="24" width="8" height="44" rx="1" fill="var(--leaf-600)" opacity="0.4" />
+                <rect x="72" y="18" width="8" height="50" rx="1" fill="var(--leaf-600)" opacity="0.5" />
+                <rect x="84" y="12" width="8" height="56" rx="1" fill="var(--citrus-500)" opacity="0.5"
+                  class="model-bar-grow" />
+                <!-- Trend arrow -->
+                <polyline points="26,46 40,36 52,28 64,22 76,16 90,10" stroke="var(--citrus-500)" stroke-width="1.2"
+                  stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.5" stroke-dasharray="3 2" />
+                <polygon points="90,7 94,12 88,12" fill="var(--citrus-500)" opacity="0.5" />
+                <!-- Forecast zone -->
+                <rect x="82" y="6" width="22" height="64" rx="2" stroke="var(--citrus-500)" stroke-width="0.8"
+                  stroke-dasharray="3 3" fill="var(--citrus-500)" fill-opacity="0.03" opacity="0.4" />
+                <text x="84" y="5" fill="var(--citrus-500)" font-size="5" font-weight="700"
+                  opacity="0.45">FORECAST</text>
+              </svg>
+            </div>
+            <span>Demand graph</span>
+            <h3>Pre-sell and shipment forecasting</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section produce" id="produce" aria-labelledby="produce-title">
+      <div class="shell">
+        <div class="section-heading split reveal">
+          <div>
+            <p class="eyebrow dark">Indian produce</p>
+            <h2 id="produce-title">Indian produce with batch-level proof.</h2>
+          </div>
+          <a class="text-link" href="#contact">
+            Request buyer sheet
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M5 12h14M13 6l6 6-6 6" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="produce-grid">
+          <article class="produce-card reveal reveal-delay-1">
+            <img src="Assests/mangoes.png" alt="Alphonso mangoes in an export-quality wooden crate" width="400"
+              height="400" loading="lazy">
+            <div>
+              <span>Ratnagiri India</span>
+              <h3>Mangoes</h3>
+              <p>Color graded, defect screened, packed by shelf-life window.</p>
+            </div>
+          </article>
+          <article class="produce-card reveal reveal-delay-2">
+            <img src="Assests/grapes.png" alt="Fresh grapes prepared for export" width="400" height="400"
+              loading="lazy">
+            <div>
+              <span>Cold chain ready</span>
+              <h3>Grapes</h3>
+              <p>Cluster quality, residue documents, and route temperature checks.</p>
+            </div>
+          </article>
+          <article class="produce-card reveal reveal-delay-3">
+            <img src="Assests/spices.png" alt="Assorted Indian spices arranged for export" width="400" height="400"
+              loading="lazy">
+            <div>
+              <span>Lot traceable</span>
+              <h3>Spices</h3>
+              <p>Batch origin, lab checks, and compliance records in one file.</p>
+            </div>
+          </article>
+          <article class="produce-card reveal reveal-delay-4">
+            <img src="Assests/avocados.png" alt="Fresh avocados grouped for export" width="400" height="400"
+              loading="lazy">
+            <div>
+              <span>Ripeness managed</span>
+              <h3>Avocados</h3>
+              <p>Ripeness, packing density, and destination timing aligned.</p>
+            </div>
+          </article>
+          <article class="produce-card reveal reveal-delay-5">
+            <img src="Assests/limes.png" alt="Fresh limes ready for export packaging" width="400" height="400"
+              loading="lazy">
+            <div>
+              <span>Grade sorted</span>
+              <h3>Limes</h3>
+              <p>Size bands, freshness checks, and buyer-ready documentation.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-band" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">Partner lane</p>
+          <h2 id="contact-title">Build a smarter export corridor with SWAMICORE.</h2>
+          <p>For buyers, FPOs, exporters, and logistics teams ready to make produce trade cleaner, faster, and more
+            transparent.</p>
+        </div>
+        <form class="contact-form reveal reveal-delay-2" id="contactForm" aria-label="Book a SWAMICORE demo">
+          <label for="email">Work email</label>
+          <div class="input-row">
+            <input id="email" name="email" type="email" placeholder="you@company.com" autocomplete="email" required>
+            <button type="submit">
+              Send Request
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </button>
+          </div>
+          <p class="form-note" id="formNote" aria-live="polite">We will reply with buyer lanes, produce categories, and
+            platform access options.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <a href="#hero" class="brand footer-brand" aria-label="SWAMICORE home">
+          <img src="Assests/swamicore_logo.png" alt="" width="40" height="40">
+          <span>
+            <strong>SWAMICORE</strong>
+            <small>Farm-sourced. AI verified. Globally delivered.</small>
+          </span>
+        </a>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="#platform">Platform</a>
+        <a href="#flow">Flow</a>
+        <a href="#models">AI Models</a>
+        <a href="#produce">Produce</a>
+      </nav>
+      <p>&copy; 2026 SWAMICORE Agro Exports Pvt. Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
